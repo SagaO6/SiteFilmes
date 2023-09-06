@@ -1,0 +1,48 @@
+*{
+
+margin: 0px;
+padding: 0px;
+box-sizing: 0px;
+
+}
+
+#filme {
+
+width: 100%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+
+#filme div{
+
+width: 25%;
+margin: 20px;
+box-shadow: 0px 2px 10px rgba(40, 100, 20, 0.968);
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+padding: 10px;
+margin-bottom: 150px;
+
+}
+
+#filme div img{
+
+width: 100%;
+border-bottom-left-radius: 100px;
+border-bottom-right-radius: 100px;
+box-shadow: 0px 2px 10px rgba(40, 20, 20, 0.968);
+margin-top: -130px;
+
+}
+
+#filme div:hover {
+
+transition: ease 1.5s;
+transform: scale(1.1);
+cursor: pointer;
+box-shadow: 0px 0px 0px 100vw rgba(80, 80, 80, 0.900);
+border-radius: 10px;
+
+}
